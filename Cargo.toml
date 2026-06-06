@@ -1,0 +1,7 @@
+[package]
+name = "oxide-journal"
+version = "0.1.0"
+edition = "2021"
+description = "Write-ahead journal for GPU state mutations with ternary integrity. {+1=committed, 0=pending, -1=corrupted}. Replay, checkpoint, compaction."
+license = "Apache-2.0"
+repository = "https://github.com/SuperInstance/oxide-journal"
